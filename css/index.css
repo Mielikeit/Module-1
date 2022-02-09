@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 /* HEADER */
 
 .header {
@@ -7,11 +12,16 @@
 
   margin: 0px;
   padding: 0px;
+
+  width: 100%;
 }
 
 
 .instructions {
   font-size: 25px;
+  padding: 10px;
+
+  background-color: rgb(253, 232, 241);
 }
 
 /* BOTTOM LIST ITEMS */
@@ -43,13 +53,15 @@
 .holder {
   display:flex;
   position: static;
+
+  background-color: rgb(253, 232, 241);
 }
 
 /* FOOTER CSS */
 
 .socials {
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   
   font-family: 'Ariel';
   font-size: 15px;
@@ -60,6 +72,9 @@
 
 .footer {
   background-color: lightpink;
-  text-align: bottom;
-
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4%;
 }
